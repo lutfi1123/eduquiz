@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #4facfe;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+/* PAGE */
+.page {
+    display: none;
+    padding: 30px;
+    text-align: center;
+}
+
+.page.active {
+    display: block;
+}
+
+/* BUTTON */
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #4facfe;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #007bff;
+}
+
+/* QUIZ */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.option {
+    background: #00c6ff;
+}
+
+/* RANK */
+ol {
+    text-align: left;
+    max-width: 200px;
+    margin: auto;
+}
